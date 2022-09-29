@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>form</title>
+            <style>
+                  .header{
+                    colour:blue;
+                    background-color: green;
+                    text-align: center;
+        
+                  }
+                  legend{
+                    text-align: center;
+                  }
+                  fieldset{
+                     margin-left: 40px;
+                    margin-right: 60px;
+        
+                  }
+                  form{
+                    padding:10px 10px 50px 10px;
+                    background-image: url(https://media.istockphoto.com/photos/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-picture-id1353553203?b=1&k=20&m=1353553203&s=170667a&w=0&h=QTyTGI9tWQluIlkmwW0s7Q4z7R_IT8egpzzHjW3cSas=)
+        
+        
+                  }
+                    .button{
+                    text-align:center;
+                    color:blue;
+                  }
+            </style>
+        </head>
+        <body>
+            
+            <h1 class="header">Application form</h1>
+            <form action="submission.html">
+          <fieldset>
+                 <legend>personal details:</legend>
+                 <label for ="text">user name</label>
+                 <input type="text"placeholder="Enter your name">
+                   <br><br>
+                   <label for="email">email id</label>
+                    <input type="email"placeholder="Enter your email id"rquired pattern="(?=.*\d)(?=.*[@])">
+                        <br><br>
+                     <label for="password">password</label> 
+                      <input type="Password"placeholder="enter your password"required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z](?=.*[1-9](?=.*[@#$%]">
+                <p></p>
+                      
+    </fieldset>
+        <br><br>
+            
+                
+            
+            <fieldset>
+                <legend for="gender">select your gender</legend><br>
+                <input type="radio"name="gender"requiredpattern="1">male<br>
+                <input type="radio"name="gender"reuiredpattern="2">female<br>
+                <input type="radio"name="gender"requiredpattern="3">others<br>
+                <div></div>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend for="skills">select your skills</legend>
+                <input type="checkbox"name="skills">c<br>
+                <input type="checkbox"name="skills">c++<br>
+                <input type="checkbox"name="skills">java<br>
+                <input type="checkbox"name="skills">python<br>
+                <p></p>
+            </fieldset>
+            <br><br>
+
+                <fieldset>
+                    <legend for="Experience">Experience</legend>
+                    <select name="Experience">
+                    <option value="select">select</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="=3">3</option>
+                    </select><br>
+                    <p></p>
+                </fieldset>
+
+        
+        
+                    <fieldset>
+                        <legend for="Address">Address</legend>
+                        <textarea name="Adress" id="" cols="30" rows="3"></textarea>
+                  </fieldset> <br>
+                    
+        </form>
+         </fieldset>           
+                    <div class="button">
+                   <button>submit</button>
+            </form>
+        
+                    
+                    
+        
+        
+                    
+            
+                    
+                
+        
+ </body>
+</html>
